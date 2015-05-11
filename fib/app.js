@@ -2,7 +2,7 @@
 var fibArray = [1,1];
 var result = fibArray[0];
 var fibonacci = function(arr, x){
-  for (var i = 2; arr[i-1] < x; i++)
+  for (var i = 2; arr[i-1] <= x; i++)
   {
       arr[i] = arr[i-1] + arr[i-2];
       result = result + " " + arr[i-1];
